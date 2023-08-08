@@ -20,6 +20,7 @@ The dataset from RentTheRunway, a clothing rental platform, provides features li
     Examined ratings over time, revealing stable trends over a 6-year period.
 
 ### Methodology
+
 Rating Prediction
 
     Developed rating prediction models starting with a baseline of global average rating.
