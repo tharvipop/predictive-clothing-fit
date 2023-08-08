@@ -14,29 +14,29 @@ The dataset from RentTheRunway, a clothing rental platform, provides features li
 
 ### Exploratory Data Analysis
 
-    Analyzed fit types and found the need for class weighting due to label imbalance.
-    Discovered that body type doesn't significantly impact fit prediction.
-    Explored average ratings across fit types and usage scenarios, revealing the influence of social validation.
-    Examined ratings over time, revealing stable trends over a 6-year period.
+Analyzed fit types and found the need for class weighting due to label imbalance.
+Discovered that body type doesn't significantly impact fit prediction.
+Explored average ratings across fit types and usage scenarios, revealing the influence of social validation.
+Examined ratings over time, revealing stable trends over a 6-year period.
 
 ### Methodology
 
 Rating Prediction
 
-    Developed rating prediction models starting with a baseline of global average rating.
-    Utilized user and item features, including exclamation mark count in review text.
-    Employed interaction data models using Jaccard similarity and user/item biases.
+Developed rating prediction models starting with a baseline of global average rating.
+Utilized user and item features, including exclamation mark count in review text.
+Employed interaction data models using Jaccard similarity and user/item biases.
 
 Fit Prediction
 
-    Designed fit prediction models, utilizing logistic regression and encoded fit labels.
-    Leveraged text analysis models (bag-of-words and TF-IDF) on review text.
+Designed fit prediction models, utilizing logistic regression and encoded fit labels.
+Leveraged text analysis models (bag-of-words and TF-IDF) on review text.
 
 Results
 
-    Rating prediction models' performance varied, with interaction data models generally outperforming plain feature models.
-    Fit prediction models using text analysis (TF-IDF) demonstrated higher accuracy compared to feature-based models.
-    Interaction data consistently improved model performance.
+Rating prediction models' performance varied, with interaction data models generally outperforming plain feature models.
+Fit prediction models using text analysis (TF-IDF) demonstrated higher accuracy compared to feature-based models.
+Interaction data consistently improved model performance.
 
 ### Conclusion
 
